@@ -1,0 +1,19 @@
+
+source ~/.vimrc
+
+
+set keep-english-in-normal-and-restore-in-insert
+
+
+" actions
+" 打开最近列表
+nnoremap <leader>e :action Switcher<cr>
+nnoremap <leader>F12 :action FileStructurePopup<cr>
+nnoremap <leader>n :action GotoClass<cr>
+nnoremap <leader>N :action GotoSymbol<cr>
+nnoremap <leader>a :action GotoAction<cr>
+nnoremap <leader>b :action GotoDeclaration<cr>
+nnoremap <leader>B :action GotoImplementation<cr>
+
+
+
